@@ -45,3 +45,17 @@ console.log(shipments)
 // console.log(shipment) // This instruction will throw an error
 // Also: variables are visible inside sub-blocks of the block you are into.
 // That's why we can see shipments variable inside the for loop.
+
+console.log("\n-----------REMOVING ITEMS------------")
+
+// Remove the second item
+shipments.splice(1, 1)
+// First thing isinde the round brackets: position where we want to operate
+// Second: we remove only one element
+// Third: The element(s) that we want to insert -- we don't need it here, we only want to remove
+
+console.log(shipments)
+
+// Let's remove second AND third item
+shipments.splice(1, 2)
+console.log(shipments)
