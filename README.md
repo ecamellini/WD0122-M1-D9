@@ -9,4 +9,4 @@
 3. Control flow -- choose what your program does and when
    1. If statement: choose if to execute some instructions or not, based on some condition
    2. Loops (while, for): execute the same instructions many times
-4. Functions -- ...
+4. Functions -- reuse code, make it parametric --> you define a block of code, some inputs (parameters), it gives back some output (return value)
